@@ -9,32 +9,34 @@ Three calls for uploading, downloading and deleting files.
 
     POST: http://localhost:8888/upload
 
-For testing go to: http://localhost:8888/
+    For testing go to: http://localhost:8888/
 
-Returns: 
-    
-    Json Response:
+    Returns: 
         
-        {"status": "success/failure", "reponse_id": "file id"}
+        Json Response:
+        
+            {"status": "success/failure", "reponse_id": "file id"}
 
 2. Downloading files
 
     GET: http://localhost:8888/download?id="file id here"
 
-Returns:
+    Returns:
 
-    Json Response if downloading fails:
+        Json Response if downloading fails:
 
-        {"status": "File does not exists/Enter file id"}
+            {"status": "File does not exists/Enter file id"}
 
    
 3. Deleting files:
 
     GET: http://localhost:8888?id="file id here"
 
-    Json Response:
+    Returns:
 
-        {"status": "success/failure"}
+        Json Response:
+
+            {"status": "success/failure"}
 
 
 ## Backend
