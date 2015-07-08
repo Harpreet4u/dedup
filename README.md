@@ -7,7 +7,7 @@ Three calls for uploading, downloading and deleting files.
 
 1. Uploading files
 
-POST: http://localhost:8888/upload
+    POST: http://localhost:8888/upload
 
 For testing go to: http://localhost:8888/
 
@@ -19,7 +19,7 @@ Returns:
 
 2. Downloading files
 
-GET: http://localhost:8888/download?id="file id here"
+    GET: http://localhost:8888/download?id="file id here"
 
 Returns:
 
@@ -30,7 +30,7 @@ Returns:
    
 3. Deleting files:
 
-GET: http://localhost:8888?id="file id here"
+    GET: http://localhost:8888?id="file id here"
 
     Json Response:
 
